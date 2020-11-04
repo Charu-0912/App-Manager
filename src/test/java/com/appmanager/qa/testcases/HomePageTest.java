@@ -38,7 +38,7 @@ public class HomePageTest extends TestBase {
 	@Test(priority=1)
 	public void verifyHomePageLogo() {
 		boolean flag = homePage.homePageLogo();
-		Assert.assertTrue(flag, "HomePage Logo is not available..");
+		Assert.assertTrue(flag, "HomePage Logo is unavailable..");
 	}
 
 	@Test(priority=2)
