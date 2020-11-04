@@ -51,7 +51,7 @@ public class HomePageTest extends TestBase {
 	public void verifyExternalLoginLink() {
 	    url = homePage.clickOnExternalLoginLink();
 		Assert.assertEquals(url, "https://openmethodsqa.qa.openmethodscloud.com/Manage/ManageLogins", "Unable to navigate external login page ");
-		log.info("The Cross Test GIT ");
+		log.info("The Cross Test GIT  successfully done");
 	}
 	@Test(priority=4)
 	public void verifyResetPasswordLink() {
