@@ -42,12 +42,12 @@ public class UsersPageTest extends TestBase {
 		usersPage.inviteUser();
 		
 	}
-	
-	@Test(priority=1)
+
+	@Test(priority=2)
 	public void verifySearchWithUserNameTest1() {
-		
+
 		usersPage.searchWithUsername(s);
-		
+
 	}
 		
 	@DataProvider
@@ -57,7 +57,7 @@ public class UsersPageTest extends TestBase {
 		return data;
 	}
 	
-	@Test(priority=1, dataProvider = "getUsersData")
+	@Test(priority=3, dataProvider = "getUsersData")
 	public void verifyInviteMultipleUsersTest(String firstname, String lastname, String emailaddress) {
 		 
 		usersPage.inviteMultipeUser(firstname, lastname, emailaddress);

@@ -17,7 +17,7 @@ public class TestUtil extends TestBase {
 
 	static Workbook book;
 	static Sheet sheet;
-	public static String TESTDATA_SHEET_PATH = "/Users/tusharbbagul/Automation/MyWorkspace1/AppManager/src/main/java/com/appmanager/qa/testdata/AppManager_TestData.xlsx";
+	public static String TESTDATA_SHEET_PATH = "/Users/amit/Automation/MyWorkspace1/AppManager/src/main/java/com/appmanager/qa/testdata/AppManager_TestData.xlsx";
 
 	public static Object[][] getTestData(String sheetName) {
 

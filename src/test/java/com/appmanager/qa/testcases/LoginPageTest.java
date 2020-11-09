@@ -47,6 +47,7 @@ public class LoginPageTest extends TestBase {
 
 		homePage = loginPage.login(prop.getProperty("username"), prop.getProperty("invalidPassword"));
 		String loginError = loginPage.errorMessage();
+		Assert.assertEquals(loginError,"Invalid login attempt.");
 		log.info(loginError);
 
 	}
@@ -54,18 +55,16 @@ public class LoginPageTest extends TestBase {
 	public void verifyAppManagerLoginWithInvalidUserNameInvalidPassword() {
 
 		homePage = loginPage.login(prop.getProperty("invalidUsername"), prop.getProperty("invalidPassword"));
-		String loginError = loginPage.errorMessage();
-		log.info(loginError);
+		String url = loginPage.getCurrentUrl();
+		Assert.assertEquals(url,"OpenMethods Login - Openmethods");
 
 	}
 	@Test(priority = 4)
 	public void verifyAppManagerLoginWithInvalidUsernameValidPassword() {
 
-		homePage = loginPage.login(prop.getProperty("invalidUsername"), prop.getProperty("Password"));
-		String loginError = loginPage.errorMessage();
-
-		log.info(loginError);
-
+		homePage = loginPage.login(prop.getProperty("invalidUsername"), prop.getProperty("password"));
+		String url = loginPage.getCurrentUrl();
+		Assert.assertEquals(url,"OpenMethods Login - Openmethods");
 
 	}
 	@Test(priority = 5)

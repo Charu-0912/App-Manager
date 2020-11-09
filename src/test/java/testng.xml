@@ -10,6 +10,11 @@
 		<classes>
 			<class name="com.appmanager.qa.testcases.LoginPageTest" />
 			<class name="com.appmanager.qa.testcases.HomePageTest" />
+			<class name="com.appmanager.qa.testcases.ForgotPasswordTest" />
+			<class name="com.appmanager.qa.testcases.ExternalLoginsTest" />
+			<class name="com.appmanager.qa.testcases.CRMAuthorizationTest" />
+			<class name="com.appmanager.qa.testcases.UsersPageTest" />
+
 
 		</classes>
 	</test> <!-- Test -->

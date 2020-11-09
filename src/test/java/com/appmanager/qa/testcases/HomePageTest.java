@@ -50,14 +50,13 @@ public class HomePageTest extends TestBase {
 	@Test(priority=3)
 	public void verifyExternalLoginLink() {
 	    url = homePage.clickOnExternalLoginLink();
-		Assert.assertEquals(url, "https://openmethodsqa.qa.openmethodscloud.com/Manage/ManageLogins", "Unable to navigate external login page ");
-		log.info("The Cross Test GIT  successfully done");
+		Assert.assertEquals(url, "MANAGE LOGINS > REGISTERED LOGINS - Openmethods", "Unable to navigate external login page ");
 	}
 	@Test(priority=4)
 	public void verifyResetPasswordLink() {
 
 		url = homePage.clickOnResetPasswordLink();
-		Assert.assertEquals(url, "https://openmethodsqa.qa.openmethodscloud.com/Account/ResetUserPassword");
+		Assert.assertEquals(url, "ACCOUNT > RESET PASSWORD - Openmethods");
 	}
 	@Test(priority=5)
 	public void verifyAboutLink() {
@@ -68,8 +67,8 @@ public class HomePageTest extends TestBase {
 	@Test(priority = 6)
 	public void verifyToggleTooltip(){
 
-		String toggelTooltip = homePage.toggelTooltip();
-		Assert.assertEquals(toggelTooltip, "Toggle Left Navigation.");
+		boolean flag = homePage.toggelTooltip();
+		Assert.assertTrue(flag,"Toggle tooltip is missing");
 	}
 
 	@Test(priority=7)

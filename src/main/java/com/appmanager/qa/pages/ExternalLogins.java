@@ -41,13 +41,13 @@ public class ExternalLogins extends TestBase {
 	@FindBy(xpath = "//table[@class=\"table table-striped table-hover sortable table-margin\"]//tr//th[3]")
 	WebElement ExternalLoginTableColumn3;
 
-	@FindBy(xpath = "//tr[2]//div//a[@id=\"loginLink\"]")
+	@FindBy(xpath = "//div[@class=\"row\"]//tr[2]//div//a[@id=\"loginLink\"]")
 	WebElement AuthorisedBtn;
 
-	@FindBy(xpath = "//tr[1]//div//a[@id=\"loginLink\"]")
+	@FindBy(xpath = "//div[@class=\"row\"]//tr[1]//div//a[@id=\"loginLink\"]")
 	WebElement ReAuthorisedBtn;
 
-	@FindBy(xpath = "//tr[1]//div//button[@type=\"submit\"]")
+	@FindBy(xpath = "//div[@class=\"row\"]//tr[1]//div//button[@type=\"submit\"]")
 	WebElement Remove;
 
 	@FindBy(xpath = "//input[@id=\"UserName\"]")
@@ -95,27 +95,37 @@ public class ExternalLogins extends TestBase {
 	}
 
 	public void clickOnCrmAuthorizationButton() {
+		commonActions.waitFor(3000);
 		commonActions.isElementEnabled(AuthorisedBtn);
 		commonActions.click(AuthorisedBtn);
 
 	}
 
 		public void clickOnCrmReAuthorizationButton () {
-
+			commonActions.waitFor(3000);
 			commonActions.isElementPresent(ReAuthorisedBtn);
 			commonActions.click(ReAuthorisedBtn);
 
 		}
 
 		public String clickOnCrmRemoveAuthorization () {
+			commonActions.waitFor(3000);
 			commonActions.isElementPresent(Remove);
 			commonActions.click(Remove);
 			commonActions.isElementPresent(crmRemoveSuccessMsg);
 			return crmRemoveSuccessMsg.getText();
 		}
 
-	public CRMAuthorizationPage crmLogin(String cu, String cp){
+	public void emptyUsernameLogin(){
+		password.sendKeys("");
+		submitButton.click();
+	}
+	public void emptyPassLogin(){
+		crmUserName.sendKeys("");
+		submitButton.click();
+	}
 
+	public CRMAuthorizationPage crmLogin(String cu, String cp){
 		crmUserName.sendKeys(cu);
 		password.sendKeys(cp);
 		submitButton.click();

@@ -60,6 +60,10 @@ public class LoginPage extends TestBase{
 		return s;
 	}
 
+	public String getCurrentUrl(){
+
+		return commonActions.getTitle();
+	}
 	public ForgotPasswordPage clickOnForgotPassword() {
 
 		if(commonActions.isElementPresent(ForgotPassword)) {
