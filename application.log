@@ -4395,3 +4395,77 @@ Session ID: ee2046eef63307b7171a6a16bd5783a3
 2020-11-05 11:47:09,222 DEBUG [main] cache:45 - TemplateLoader.findTemplateSource("Extent_en.ftl"): Not found
 2020-11-05 11:47:09,222 DEBUG [main] cache:45 - TemplateLoader.findTemplateSource("Extent.ftl"): Found
 2020-11-05 11:47:09,222 DEBUG [main] cache:45 - Loading template for "Extent.ftl"("en_US", UTF-8, parsed) from "jar:file:/C:/Users/Aloha7/.m2/repository/com/relevantcodes/extentreports/2.41.2/extentreports-2.41.2.jar!/com/relevantcodes/extentreports/view/Extent.ftl"
+2020-11-25 18:56:20,275  INFO [main] LoginPage:47 - Initialized page factory of Login Page.
+2020-11-25 18:56:53,584  INFO [main] HomePage:62 - Initialized page factory of Home Page.
+2020-11-25 18:56:53,587  INFO [main] HomePage:62 - Initialized page factory of Home Page.
+2020-11-25 18:56:53,592  INFO [main] ResetPasswordPage:44 - Initialized page factory of Reset Password Page.
+2020-11-25 18:56:53,682  INFO [main] CommonActions:83 - Element [[ChromeDriver: chrome on MAC (ed10dec92b31ca7e4c5dd6344e267acc)] -> xpath: //a[@id="navbarDropdown"]] present on UI is:	true
+2020-11-30 16:00:04,551  INFO [main] LoginPage:47 - Initialized page factory of Login Page.
+2020-11-30 16:00:26,149  INFO [main] HomePage:62 - Initialized page factory of Home Page.
+2020-11-30 16:00:26,151  INFO [main] HomePage:62 - Initialized page factory of Home Page.
+2020-11-30 16:00:26,153  INFO [main] ResetPasswordPage:50 - Initialized page factory of Reset Password Page.
+2020-11-30 16:00:26,261  INFO [main] CommonActions:83 - Element [[ChromeDriver: chrome on MAC (35f45760c57b1a36b1eaa2782bb29164)] -> xpath: //a[@id="navbarDropdown"]] present on UI is:	true
+2020-11-30 16:00:39,795  INFO [main] LoginPage:47 - Initialized page factory of Login Page.
+2020-11-30 16:01:06,518  INFO [main] HomePage:62 - Initialized page factory of Home Page.
+2020-11-30 16:01:06,520  INFO [main] HomePage:62 - Initialized page factory of Home Page.
+2020-11-30 16:01:06,521  INFO [main] ResetPasswordPage:50 - Initialized page factory of Reset Password Page.
+2020-11-30 16:01:06,580  INFO [main] CommonActions:83 - Element [[ChromeDriver: chrome on MAC (1ea73a7e8b28198fa0c89afb0717cadf)] -> xpath: //a[@id="navbarDropdown"]] present on UI is:	true
+2020-11-30 16:01:07,979  INFO [main] CommonActions:83 - Element [[ChromeDriver: chrome on MAC (1ea73a7e8b28198fa0c89afb0717cadf)] -> xpath: //div[@class="col-md-10"]//input[@id="Password"]] present on UI is:	true
+2020-11-30 16:01:28,077  INFO [main] CommonActions:86 - Element is not present on UI and exception occured.org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//span[@for="Password"]"}
+  (Session info: chrome=87.0.4280.67)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'Tushars-Air', ip: '2409:4042:2ea6:cab:fc9d:56d3:afc6:23f1%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.15.7', java.version: '1.8.0_261'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 87.0.4280.67, chrome: {chromedriverVersion: 87.0.4280.20 (c99e81631faa0..., userDataDir: /var/folders/cc/gh19br410zs...}, goog:chromeOptions: {debuggerAddress: localhost:54095}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: 1ea73a7e8b28198fa0c89afb0717cadf
+*** Element info: {Using=xpath, value=//span[@for="Password"]}
+2020-11-30 16:01:48,091  INFO [main] CommonActions:86 - Element is not present on UI and exception occured.org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//span[@for="Password"]"}
+  (Session info: chrome=87.0.4280.67)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'Tushars-Air', ip: '2409:4042:2ea6:cab:fc9d:56d3:afc6:23f1%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.15.7', java.version: '1.8.0_261'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 87.0.4280.67, chrome: {chromedriverVersion: 87.0.4280.20 (c99e81631faa0..., userDataDir: /var/folders/cc/gh19br410zs...}, goog:chromeOptions: {debuggerAddress: localhost:54095}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: 1ea73a7e8b28198fa0c89afb0717cadf
+*** Element info: {Using=xpath, value=//span[@for="Password"]}
+2020-11-30 16:01:48,091  INFO [main] CommonActions:185 - Element is not present and unable to get the text from element.
+2020-11-30 16:02:00,898  INFO [main] LoginPage:47 - Initialized page factory of Login Page.
+2020-11-30 16:02:27,865  INFO [main] HomePage:62 - Initialized page factory of Home Page.
+2020-11-30 16:02:27,869  INFO [main] HomePage:62 - Initialized page factory of Home Page.
+2020-11-30 16:02:27,870  INFO [main] ResetPasswordPage:50 - Initialized page factory of Reset Password Page.
+2020-11-30 16:02:27,935  INFO [main] CommonActions:83 - Element [[ChromeDriver: chrome on MAC (0ee388b511deea6217ebfdc996f41d2e)] -> xpath: //a[@id="navbarDropdown"]] present on UI is:	true
+2020-11-30 16:02:29,132  INFO [main] CommonActions:83 - Element [[ChromeDriver: chrome on MAC (0ee388b511deea6217ebfdc996f41d2e)] -> xpath: //div[@class="col-md-10"]//input[@id="Password"]] present on UI is:	true
+2020-11-30 16:02:29,216  INFO [main] CommonActions:83 - Element [[ChromeDriver: chrome on MAC (0ee388b511deea6217ebfdc996f41d2e)] -> xpath: //div[@class="col-md-10"]//input[@id="Password"]] present on UI is:	true
+2020-11-30 16:02:29,329  INFO [main] CommonActions:83 - Element [[ChromeDriver: chrome on MAC (0ee388b511deea6217ebfdc996f41d2e)] -> xpath: //div[@class="col-md-10"]//input[@id="ConfirmPassword"]] present on UI is:	true
+2020-11-30 16:02:29,456  INFO [main] CommonActions:83 - Element [[ChromeDriver: chrome on MAC (0ee388b511deea6217ebfdc996f41d2e)] -> xpath: //div[@class="col-md-offset-2 col-md-10"]//input[@type="submit"]] present on UI is:	true
+2020-11-30 16:02:29,579  INFO [main] CommonActions:83 - Element [[ChromeDriver: chrome on MAC (0ee388b511deea6217ebfdc996f41d2e)] -> xpath: //span[@for="ConfirmPassword"]] present on UI is:	true
+2020-11-30 16:02:29,603  INFO [main] CommonActions:183 - Text is:	The password and confirmation password do not match.
+2020-11-30 16:02:41,965  INFO [main] LoginPage:47 - Initialized page factory of Login Page.
+2020-11-30 16:03:13,719  INFO [main] HomePage:62 - Initialized page factory of Home Page.
+2020-11-30 16:03:13,722  INFO [main] HomePage:62 - Initialized page factory of Home Page.
+2020-11-30 16:03:13,723  INFO [main] ResetPasswordPage:50 - Initialized page factory of Reset Password Page.
+2020-11-30 16:03:13,775  INFO [main] CommonActions:83 - Element [[ChromeDriver: chrome on MAC (3626fd481c871726abbe4f1e79603ff6)] -> xpath: //a[@id="navbarDropdown"]] present on UI is:	true
+2020-11-30 16:03:15,176  INFO [main] CommonActions:83 - Element [[ChromeDriver: chrome on MAC (3626fd481c871726abbe4f1e79603ff6)] -> xpath: //div[@class="col-md-10"]//input[@id="Password"]] present on UI is:	true
+2020-11-30 16:03:15,254  INFO [main] CommonActions:83 - Element [[ChromeDriver: chrome on MAC (3626fd481c871726abbe4f1e79603ff6)] -> xpath: //div[@class="col-md-10"]//input[@id="Password"]] present on UI is:	true
+2020-11-30 16:03:15,374  INFO [main] CommonActions:83 - Element [[ChromeDriver: chrome on MAC (3626fd481c871726abbe4f1e79603ff6)] -> xpath: //div[@class="col-md-10"]//input[@id="ConfirmPassword"]] present on UI is:	true
+2020-11-30 16:03:15,511  INFO [main] CommonActions:83 - Element [[ChromeDriver: chrome on MAC (3626fd481c871726abbe4f1e79603ff6)] -> xpath: //div[@class="col-md-offset-2 col-md-10"]//input[@type="submit"]] present on UI is:	true
+2020-11-30 16:03:35,655  INFO [main] CommonActions:86 - Element is not present on UI and exception occured.org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//div[@role="alert"]//strong"}
+  (Session info: chrome=87.0.4280.67)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'Tushars-Air', ip: '2409:4042:2ea6:cab:fc9d:56d3:afc6:23f1%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.15.7', java.version: '1.8.0_261'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 87.0.4280.67, chrome: {chromedriverVersion: 87.0.4280.20 (c99e81631faa0..., userDataDir: /var/folders/cc/gh19br410zs...}, goog:chromeOptions: {debuggerAddress: localhost:54648}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: 3626fd481c871726abbe4f1e79603ff6
+*** Element info: {Using=xpath, value=//div[@role="alert"]//strong}
+2020-11-30 16:03:55,661  INFO [main] CommonActions:86 - Element is not present on UI and exception occured.org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//div[@role="alert"]//strong"}
+  (Session info: chrome=87.0.4280.67)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'Tushars-Air', ip: '2409:4042:2ea6:cab:fc9d:56d3:afc6:23f1%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.15.7', java.version: '1.8.0_261'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 87.0.4280.67, chrome: {chromedriverVersion: 87.0.4280.20 (c99e81631faa0..., userDataDir: /var/folders/cc/gh19br410zs...}, goog:chromeOptions: {debuggerAddress: localhost:54648}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: 3626fd481c871726abbe4f1e79603ff6
+*** Element info: {Using=xpath, value=//div[@role="alert"]//strong}
+2020-11-30 16:03:55,661  INFO [main] CommonActions:185 - Element is not present and unable to get the text from element.

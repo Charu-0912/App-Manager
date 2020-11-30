@@ -67,7 +67,7 @@ public class HomePageTest extends TestBase {
 	@Test(priority = 6)
 	public void verifyToggleTooltip(){
 
-		boolean flag = homePage.toggelTooltip();
+		boolean flag = homePage.toggleTooltip();
 		Assert.assertTrue(flag,"Toggle tooltip is missing");
 	}
 

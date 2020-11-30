@@ -27,6 +27,12 @@ public class UsersPage extends TestBase {
 	
 	Logger log = LoggerHelper.getLogger(HomePage.class);
 
+	@FindBy(xpath = "//div[@class=\"container-fluid title-container\"]//div[@class=\"col-sm-10\"]//h6")
+	WebElement userPageUIText1;
+
+	@FindBy(xpath = "//div[@class=\"container-fluid title-container\"]//div[@class=\"col-sm-10\"]//span")
+	WebElement userPageUIText2;
+
 	@FindBy(xpath="//div[@class=\"left-nav\"]//ul//li[@id=\"settingsDropdown\"]")
 	WebElement settingsTab; 
 	
@@ -88,6 +94,17 @@ public class UsersPage extends TestBase {
 		PageFactory.initElements(driver, this);
 
 	}
+
+	public String userPageUIText1(){
+		commonActions.isElementPresent(userPageUIText1);
+		String str1 = commonActions.getText(userPageUIText1);
+		return str1;
+	}
+	public boolean userPageUIText2(){
+		return commonActions.isElementPresent(userPageUIText2);
+
+	}
+
 	
 	public void inviteUser() {
 		commonActions.click(settingsTab);

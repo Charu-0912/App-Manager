@@ -52,8 +52,7 @@ public class HomePage extends TestBase {
 	WebElement LeftPanel;
 
 	@FindBy(xpath = "//span//img[@data-toggle=\"tooltip\"]")
-	WebElement ToggelTooltip;
-
+	WebElement toggelTooltip;
 	// Initialize page factory
 	public HomePage(WebDriver driver, ExtentTest logger) {
 		this.driver = driver;
@@ -76,7 +75,6 @@ public class HomePage extends TestBase {
 
 	public String clickOnExternalLoginLink() {
 		commonActions.click(dropDownButton);
-		commonActions.waitFor(3000);
 		List<WebElement> list = driver.findElements(By.xpath("//div[@class=\"dropdown-menu show\"]//a"));
 		System.out.println(list.size());
 		for (int i = 0; i < list.size(); i++) {
@@ -85,7 +83,7 @@ public class HomePage extends TestBase {
 				break;
 			}
 		}
-		return url = commonActions.getTitle();
+		return url = driver.getCurrentUrl();
 
 	}
 
@@ -101,8 +99,7 @@ public class HomePage extends TestBase {
 			}
 
 		}
-		return url = commonActions.getTitle();
-
+		return url = driver.getCurrentUrl();
 
 	}
 
@@ -121,8 +118,8 @@ public class HomePage extends TestBase {
 
 	}
 
-	public boolean toggelTooltip(){
-		return commonActions.isElementPresent(ToggelTooltip);
+	public boolean toggleTooltip(){
+		return commonActions.isElementPresent(toggelTooltip);
 
 	}
 
