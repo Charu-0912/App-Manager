@@ -85,7 +85,6 @@ public class CRMAuthorizationTest  extends TestBase {
         url = homePage.clickOnExternalLoginLink();
         externalLogin.clickOnCrmReAuthorizationButton();
         externalLogin.emptyUsernameLogin();
-        //CRMAuthorization = externalLogin.crmLogin(prop.getProperty("empty"), prop.getProperty("crmPassword"));
         String crmLoginError = CRMAuthorization.emptyUsernameValidation();
         log.info(crmLoginError);
     }

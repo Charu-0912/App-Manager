@@ -13,6 +13,7 @@
 			<class name="com.appmanager.qa.testcases.ForgotPasswordTest" />
 			<class name="com.appmanager.qa.testcases.ExternalLoginsTest" />
 			<class name="com.appmanager.qa.testcases.CRMAuthorizationTest" />
+			<class name="com.appmanager.qa.testcases.ResetPasswordTest" />
 			<class name="com.appmanager.qa.testcases.UsersPageTest" />
 
 

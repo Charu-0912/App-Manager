@@ -50,13 +50,13 @@ public class HomePageTest extends TestBase {
 	@Test(priority=3)
 	public void verifyExternalLoginLink() {
 	    url = homePage.clickOnExternalLoginLink();
-		Assert.assertEquals(url, "MANAGE LOGINS > REGISTERED LOGINS - Openmethods", "Unable to navigate external login page ");
+		Assert.assertEquals(url, "https://openmethodsqa.qa.openmethodscloud.com/Manage/ManageLogins", "Unable to navigate external login page ");
 	}
 	@Test(priority=4)
 	public void verifyResetPasswordLink() {
 
 		url = homePage.clickOnResetPasswordLink();
-		Assert.assertEquals(url, "ACCOUNT > RESET PASSWORD - Openmethods");
+		Assert.assertEquals(url, "https://openmethodsqa.qa.openmethodscloud.com/Account/ResetUserPassword");
 	}
 	@Test(priority=5)
 	public void verifyAboutLink() {
