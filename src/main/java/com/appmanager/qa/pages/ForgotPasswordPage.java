@@ -67,7 +67,7 @@ public class ForgotPasswordPage extends TestBase {
     }
 
     public String submitEmail(){
-        commonActions.enterData(emailTextField,"amit@openmethods.com");
+        commonActions.enterData(emailTextField,"");
         commonActions.click(emailLinkBtn);
         return commonActions.getTitle();
 
