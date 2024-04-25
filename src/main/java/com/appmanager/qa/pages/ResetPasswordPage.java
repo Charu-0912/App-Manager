@@ -67,8 +67,6 @@ public class ResetPasswordPage extends TestBase {
 
     public String ConfirmPasswordFieldValidationError(){
         commonActions.clear(Password);
-        commonActions.enterData(Password,"Aloha@123");
-        commonActions.enterData(ConfirmPassword,"Aloha@1234");
         commonActions.click(ResetBtn);
         return commonActions.getText(ConfirmPasswordValidation);
     }
