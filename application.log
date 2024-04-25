@@ -6806,3 +6806,67 @@ Session ID: 4d101fca0d8e38da4ed31a9e9b23e198
 2020-12-01 02:55:27,012  INFO [main] CommonActions:83 - Element [[ChromeDriver: chrome on WINDOWS (4ae16fde92eace89004817695065d7d8)] -> xpath: //div[@class="row"]//tr[1]//div//a[@id="loginLink"]] present on UI is:	true
 2020-12-01 02:55:27,040  INFO [main] CommonActions:83 - Element [[ChromeDriver: chrome on WINDOWS (4ae16fde92eace89004817695065d7d8)] -> xpath: //div[@class="row"]//tr[1]//div//a[@id="loginLink"]] present on UI is:	true
 2020-12-01 02:55:27,370  INFO [main] LoginPageTest:89 - The Username field is required.
+2021-02-01 06:23:39,812  INFO [main] LoginPage:47 - Initialized page factory of Login Page.
+2021-02-01 06:23:40,009  INFO [main] LoginPageTest:41 - Logo displays at Home Page 
+2021-02-01 06:23:48,181  INFO [main] LoginPage:47 - Initialized page factory of Login Page.
+2021-02-01 06:23:48,775  INFO [main] HomePage:62 - Initialized page factory of Home Page.
+2021-02-01 06:23:48,798  INFO [main] LoginPageTest:51 - Invalid login attempt.
+2021-02-01 06:23:54,018  INFO [main] LoginPage:47 - Initialized page factory of Login Page.
+2021-02-01 06:23:54,426  INFO [main] HomePage:62 - Initialized page factory of Home Page.
+2021-02-01 06:23:54,430  INFO [main] CommonActions:204 - Title is:	OpenMethods Login - Openmethods
+2021-02-01 06:23:59,327  INFO [main] LoginPage:47 - Initialized page factory of Login Page.
+2021-02-01 06:23:59,685  INFO [main] HomePage:62 - Initialized page factory of Home Page.
+2021-02-01 06:23:59,689  INFO [main] CommonActions:204 - Title is:	OpenMethods Login - Openmethods
+2021-02-01 06:24:05,121  INFO [main] LoginPage:47 - Initialized page factory of Login Page.
+2021-02-01 06:24:05,567  INFO [main] HomePage:62 - Initialized page factory of Home Page.
+2021-02-01 06:24:10,662  INFO [main] LoginPage:47 - Initialized page factory of Login Page.
+2021-02-01 06:24:10,708  INFO [main] CommonActions:83 - Element [[ChromeDriver: chrome on WINDOWS (14f00dc43e45e203bd56fc550641df15)] -> xpath: //div[@class="login-options"]//a[@href="/Account/ForgotPassword"]] present on UI is:	true
+2021-02-01 06:24:10,856  INFO [main] ForgotPasswordPage:52 - Initialized page factory of Forgot Password Page.
+2021-02-01 06:24:15,909  INFO [main] LoginPage:47 - Initialized page factory of Login Page.
+2021-02-01 06:24:16,340  INFO [main] HomePage:62 - Initialized page factory of Home Page.
+2021-02-01 06:24:16,340  INFO [main] HomePage:62 - Initialized page factory of Home Page.
+2021-02-01 06:24:42,457  INFO [main] LoginPage:47 - Initialized page factory of Login Page.
+2021-02-01 06:24:42,904  INFO [main] HomePage:62 - Initialized page factory of Home Page.
+2021-02-01 06:24:42,905  INFO [main] HomePage:62 - Initialized page factory of Home Page.
+2021-02-01 06:25:07,592  INFO [main] LoginPage:47 - Initialized page factory of Login Page.
+2021-02-01 06:25:08,051  INFO [main] HomePage:62 - Initialized page factory of Home Page.
+2021-02-01 06:25:08,052  INFO [main] HomePage:62 - Initialized page factory of Home Page.
+2021-02-01 06:25:28,110  INFO [main] CommonActions:86 - Element is not present on UI and exception occured.org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//a[@id="navbarDropdown"]"}
+  (Session info: chrome=87.0.4280.88)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'ALOHA07-PC', ip: '192.168.28.139', os.name: 'Windows 8.1', os.arch: 'amd64', os.version: '6.3', java.version: '1.8.0_121'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 87.0.4280.88, chrome: {chromedriverVersion: 87.0.4280.88 (89e2380a3e36c..., userDataDir: C:\Users\Aloha7\AppData\Loc...}, goog:chromeOptions: {debuggerAddress: localhost:55724}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: c877484144c391d7a4a6801b2cc7fa52
+*** Element info: {Using=xpath, value=//a[@id="navbarDropdown"]}
+2021-02-01 06:25:28,110  INFO [main] CommonActions:128 - Element is not present and click on element is not perform.
+2021-02-01 06:25:53,331  INFO [main] LoginPage:47 - Initialized page factory of Login Page.
+2021-02-01 06:25:53,745  INFO [main] HomePage:62 - Initialized page factory of Home Page.
+2021-02-01 06:25:53,745  INFO [main] HomePage:62 - Initialized page factory of Home Page.
+2021-02-01 06:26:13,784  INFO [main] CommonActions:86 - Element is not present on UI and exception occured.org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//a[@id="navbarDropdown"]"}
+  (Session info: chrome=87.0.4280.88)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'ALOHA07-PC', ip: '192.168.28.139', os.name: 'Windows 8.1', os.arch: 'amd64', os.version: '6.3', java.version: '1.8.0_121'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 87.0.4280.88, chrome: {chromedriverVersion: 87.0.4280.88 (89e2380a3e36c..., userDataDir: C:\Users\Aloha7\AppData\Loc...}, goog:chromeOptions: {debuggerAddress: localhost:55746}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: 38ce6845a7fd93a5d26eca9c9979ca40
+*** Element info: {Using=xpath, value=//a[@id="navbarDropdown"]}
+2021-02-01 06:26:13,785  INFO [main] CommonActions:128 - Element is not present and click on element is not perform.
+2021-02-01 06:26:41,354  INFO [main] LoginPage:47 - Initialized page factory of Login Page.
+2021-02-01 06:26:41,807  INFO [main] HomePage:62 - Initialized page factory of Home Page.
+2021-02-01 06:26:41,807  INFO [main] HomePage:62 - Initialized page factory of Home Page.
+2021-02-01 06:27:01,846  INFO [main] CommonActions:86 - Element is not present on UI and exception occured.org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//a[@id="navbarDropdown"]"}
+  (Session info: chrome=87.0.4280.88)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'ALOHA07-PC', ip: '192.168.28.139', os.name: 'Windows 8.1', os.arch: 'amd64', os.version: '6.3', java.version: '1.8.0_121'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 87.0.4280.88, chrome: {chromedriverVersion: 87.0.4280.88 (89e2380a3e36c..., userDataDir: C:\Users\Aloha7\AppData\Loc...}, goog:chromeOptions: {debuggerAddress: localhost:55765}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: 11370541131755487266759c1fdb4060
+*** Element info: {Using=xpath, value=//a[@id="navbarDropdown"]}
+2021-02-01 06:27:01,847  INFO [main] CommonActions:128 - Element is not present and click on element is not perform.
+2021-02-01 06:27:29,188  INFO [main] LoginPage:47 - Initialized page factory of Login Page.
+2021-02-01 06:27:29,588  INFO [main] HomePage:62 - Initialized page factory of Home Page.
+2021-02-01 06:27:29,589  INFO [main] HomePage:62 - Initialized page factory of Home Page.

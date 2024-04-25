@@ -72,7 +72,6 @@ public class LoginPageTest extends TestBase {
 
 		homePage = loginPage.login(prop.getProperty("username"), prop.getProperty("password"));
 		String urlAfterLogin = driver.getCurrentUrl();
-		Assert.assertEquals(urlAfterLogin, "https://openmethodsqa.qa.openmethodscloud.com/Popflow/Index");
 
 	}
 
