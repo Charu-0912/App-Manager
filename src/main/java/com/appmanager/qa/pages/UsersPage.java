@@ -110,18 +110,15 @@ public class UsersPage extends TestBase {
 		commonActions.click(settingsTab);
 		commonActions.click(userTab);		
 		commonActions.click(inviteUserButton);
-		commonActions.enterData(firstNameText, "amit");
-		commonActions.enterData(lastNameText, "mh");
-		commonActions.enterData(email, "alohaqa7@gmail.com");
+		commonActions.enterData(firstNameText, "");
+		commonActions.enterData(lastNameText, "");
+		commonActions.enterData(email, "");
 		commonActions.click(lockCheckbox);
 		commonActions.click(rolesTab);
 		commonActions.click(checkboxAdmin);
 		commonActions.click(checkboxSuperUser);
 		commonActions.click(saveButton);
-//		HashMap<String, String> hm1 = GMail.getGmailData("subject:new link");
-//		String s = hm1.get(GMail.link);
-//		System.out.println(s);
-//		driver.navigate().to(s);
+//		
 	
 	}
 
